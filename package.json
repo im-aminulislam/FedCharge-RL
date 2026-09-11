@@ -1,0 +1,14 @@
+{
+  "name": "fedcharge-rl",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Optional npm shortcuts for the Python research benchmark",
+  "license": "MIT",
+  "author": "Md Aminul Islam",
+  "scripts": {
+    "test": "python -m unittest discover -s tests -v",
+    "demo": "python -m fedcharge.experiment --config configs/quick.json --out results/quick",
+    "benchmark": "python -m fedcharge.experiment --config configs/benchmark.json --out results/benchmark",
+    "extended": "python -m fedcharge.experiment --config configs/extended.json --out results/extended"
+  }
+}

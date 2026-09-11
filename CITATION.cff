@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, cite this repository and the exact commit or release."
+title: "FedCharge-RL: Federated Tabular Reinforcement Learning for Solar-Assisted E-Bike Charging"
+authors:
+  - family-names: "Islam"
+    given-names: "Md Aminul"
+type: software
+version: 0.1.0
+date-released: 2026-09-07
+license: MIT
+abstract: "A synthetic multi-station charging benchmark with federated, local, and pooled tabular Q-learning and paired heuristic comparisons."

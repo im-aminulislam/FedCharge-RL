@@ -1,0 +1,2 @@
+# Runtime and tests use only the Python 3.10+ standard library.
+# No pip install is needed when running from the repository root.

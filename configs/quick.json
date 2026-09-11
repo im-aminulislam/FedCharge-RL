@@ -1,0 +1,34 @@
+{
+  "rounds": 4,
+  "local_episodes": 2,
+  "eval_episodes": 3,
+  "seeds": [
+    11,
+    23
+  ],
+  "alpha": 0.12,
+  "gamma": 0.95,
+  "epsilon_start": 0.8,
+  "epsilon_end": 0.08,
+  "epsilon_decay": 0.9,
+  "stations": [
+    {
+      "name": "campus",
+      "sessions": 40,
+      "arrival_hour": 9,
+      "solar_kw": 1.2
+    },
+    {
+      "name": "commuter",
+      "sessions": 55,
+      "arrival_hour": 17,
+      "solar_kw": 0.5
+    },
+    {
+      "name": "mixed_use",
+      "sessions": 65,
+      "arrival_hour": 12,
+      "solar_kw": 0.8
+    }
+  ]
+}
